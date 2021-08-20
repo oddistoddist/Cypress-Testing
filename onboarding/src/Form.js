@@ -75,7 +75,7 @@ export default function App({ users, setUsers}) {
                 <input type="checkbox" id='tos' name='tos' value={formValues.tos} onChange={handleChange} checked={formValues.tos} />
             </label>
 
-            <button disabled={disabled}>Submit!</button>
+            <button id="btn" disabled={disabled}>Submit!</button>
 
             
         </form>
